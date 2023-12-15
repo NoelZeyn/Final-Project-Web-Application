@@ -6,7 +6,6 @@
   $make->check_session('admin');
 ?>
 <?php include 'layout/menu.php' ?>
-<!-- page content -->
         <div class="right_col" role="main">
           <div class="">
             
@@ -27,7 +26,7 @@
                     </ul>
                     <div class="clearfix"></div>
                   </div>
-                  <!-- isinya disini -->
+                  <!-- isi -->
                     isinya disini
                   <!-- /isi -->
                 </div>

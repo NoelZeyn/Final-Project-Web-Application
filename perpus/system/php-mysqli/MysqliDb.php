@@ -48,7 +48,7 @@ class MysqliDb
 
     /**
      * The SQL query options required after SELECT, INSERT, UPDATE or DELETE
-     * @var string
+     * @var array
      */
     protected $_queryOptions = array();
 
@@ -1349,7 +1349,7 @@ class MysqliDb
         $dataColumns = array_keys($tableData);
         if ($isInsert) {
             if (isset ($dataColumns[0]))
-                $this->_query .= ' (`' . implode($dataColumns, '`, `') . '`) ';
+                $this->_query .= ' (`' . implode('`, `', $dataColumns) . '`) ';
             $this->_query .= ' VALUES (';
         } else {
             $this->_query .= " SET ";
@@ -1361,6 +1361,7 @@ class MysqliDb
             $this->_query .= ')';
         }
     }
+
 
     /**
      * Abstraction method that will build the part of the WHERE conditions

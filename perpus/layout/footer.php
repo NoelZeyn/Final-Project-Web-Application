@@ -1,32 +1,22 @@
 <!-- footer content -->
-        <footer>
+<footer>
           <div class="pull-right">
-           Repost by <a href='https://www.instagram.com/ikzaazabd/' title='ikzaazabd' target='_blank'>ikzaazabd</a>
+           Made by <a href='https://www.instagram.com/ikzaazabd/' title='Kel7' target='_blank'>Kelompok 7</a>
           </div>
           <div class="clearfix"></div>
         </footer>
-        <!-- /footer content -->
       </div>
     </div>
-
-    <!-- jQuery -->
-    <script src="assets/js/jquery.min.js"></script>
-    <!-- Bootstrap -->
-    <script src="assets/js/bootstrap.min.js"></script>
-    <!-- FastClick -->
-    <script src="assets/js/fastclick.js"></script>
-    <!-- NProgress -->
-    <script src="assets/js/nprogress.js"></script>
-    <!-- dataTable js -->
-    <script src="assets/js/jquery.dataTables.min.js"></script>
-    <script src="assets/js/dataTables.bootstrap.min.js"></script>
-    <script src="assets/js/dataTables.responsive.min.js"></script>
-    <script src="assets/js/responsive.bootstrap.js"></script>
-    <!-- datepicker -->
-    <script src="assets/js/bootstrap-datepicker.js"></script>
-    <!-- notify -->
-    <script src="assets/js/notify.min.js"></script>
-    <!-- Custom Theme Scripts -->
-    <script src="assets/js/custom.js"></script>
+    <script src="../assets/js/jquery.min.js"></script>
+    <script src="../assets/js/bootstrap.min.js"></script>
+    <script src="../assets/js/fastclick.js"></script>
+    <script src="../assets/js/nprogress.js"></script>
+    <script src="../assets/js/jquery.dataTables.min.js"></script>
+    <script src="../assets/js/dataTables.bootstrap.min.js"></script>
+    <script src="../assets/js/dataTables.responsive.min.js"></script>
+    <script src="../assets/js/responsive.bootstrap.js"></script>
+    <script src="../assets/js/bootstrap-datepicker.js"></script>
+    <script src="../assets/js/notify.min.js"></script>
+    <script src="../assets/js/custom.js"></script>
   </body>
 </html>

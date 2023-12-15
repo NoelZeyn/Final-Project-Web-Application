@@ -1,7 +1,5 @@
 <?php 
-/**
-* kumpulan class 
-*/
+
 class Core 
 {
 	
@@ -34,7 +32,7 @@ class Core
 		if ($a = $db->get('admin', 1)) {
 			print_r($a);
 		} else {
-			# code...
+			
 		}
 		
 	}
@@ -55,7 +53,7 @@ class Core
 		}
 	}
 
-	// proses login admin
+	// proses login
 	public function proses_login($username, $password)
 	{
 		session_start();
@@ -77,10 +75,9 @@ class Core
 	{
 		unset($value);
 		session_destroy();
-		header("Location: login.php");
+		header("Location: ../view/login.php");
 	}
 
-	// function response json
 	public function json_response($pesan = null, $typeError = null, $code = '')
 	{
 		header_remove();

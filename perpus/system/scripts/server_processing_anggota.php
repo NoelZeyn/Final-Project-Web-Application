@@ -35,7 +35,7 @@ $columns = array(
 	array( 'db' => 'tgl_berakhir', 'dt' => 3, 'field' => 'tgl_berakhir'),
 	array( 'db' => 'uid', 'dt' => 4, 'field' => 'uid'),
 	array( 'db' => 'status_aktif', 'dt' => 5, 'field' => 'status_aktif', 'formatter'=> function($d, $row){
-		return $a = ($d == '1') ? 'Aktif' : 'Tdk aktif' ;
+		return $a = ($d == '1') ? 'Aktif' : 'Tidak aktif' ;
 	}),
 	array( 'db' => 'id_anggota', 'dt' => 6, 'formatter'=> function($d, $row){
 		// return "<a class='btn btn-xs btn-round btn-info' href=edit.php?id_kar=".$d.">Edit</a>";

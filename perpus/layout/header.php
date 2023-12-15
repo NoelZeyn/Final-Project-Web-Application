@@ -2,25 +2,15 @@
 <html lang="en">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <!-- Meta, title, CSS, favicons, etc. -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <title>Perpustakaan Universitas Brawijaya</title>
-
-    <!-- Bootstrap -->
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Font Awesome -->
-    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
-    <!-- dataTable -->
-    <link href="assets/css/dataTables.bootstrap.min.css" rel="stylesheet">
-    <link href="assets/css/responsive.bootstrap.min.css" rel="stylesheet">
-    <!-- datepicker -->
-    <link href="assets/css/datepicker.css" rel="stylesheet">
-    
-    <!-- Custom Theme Style -->
-    <link href="assets/css/custom.css" rel="stylesheet">
+    <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../assets/css/font-awesome.min.css" rel="stylesheet">
+    <link href="../assets/css/dataTables.bootstrap.min.css" rel="stylesheet">
+    <link href="../assets/css/responsive.bootstrap.min.css" rel="stylesheet">
+    <link href="../assets/css/datepicker.css" rel="stylesheet">
+    <link href="../assets/css/custom.css" rel="stylesheet">
     <style type="text/css" media="screen">
       .modal-wide .modal-dialog{
         width: 40%;
@@ -29,7 +19,8 @@
       .dropdown-menu{
         z-index: 2000 !important;
       }
-    </style>
+      </style>
+    <title>Perpustakaan Universitas Brawijaya</title>
   </head>
 
   <body class="nav-md">
@@ -40,11 +31,9 @@
             
 
             <div class="clearfix"></div>
-
-            <!-- menu profile quick info -->
             <div class="profile">
               <div class="profile_pic">
-                <img src="assets/images/img.jpg" alt="..." class="img-circle profile_img">
+                <img src="../assets/images/default.jpg" alt="..." class="img-circle profile_img">
               </div>
               <div class="profile_info">
                 <span>Welcome,</span>
@@ -57,6 +46,5 @@
                 </h2>
               </div>
             </div>
-            <!-- /menu profile quick info -->
 
             <br />
